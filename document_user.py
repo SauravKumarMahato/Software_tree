@@ -1,3 +1,4 @@
+import os
 import openpyxl as xl
 from openpyxl.styles import Alignment, PatternFill, Border, Side
 
@@ -6,27 +7,19 @@ from openpyxl.styles import Alignment, PatternFill, Border, Side
 def make_data(values):
     data = f"""
             email: {values['email']}
-            password : {values['psw']}
-            repeat password: {values['psw-repeat']}
-            location: {values['loc']}
+            password : {values['password']}
+            repeat password: {values['repassword']}
+            location: {values['location']}
             gender: {values['gender']}
-            remember: {values['remember']}
             """
     return data
 
 
 
-def check_status(values):
-    if values["validity"] == values["url_change"]:
-        return "PASS"
-    else:
-        return "FAIL"
-
-
-
 def create_userTestSheet():
-    
-    wb = xl.load_workbook('user_test.xlsx')
+
+    path = os.path.abspath('user_test.xlsx')
+    wb = xl.load_workbook(path)
 
     sheet_to_delete = 'Sheet1'
     if sheet_to_delete in wb.sheetnames:
@@ -36,6 +29,7 @@ def create_userTestSheet():
     wb.create_sheet('Sheet1')
     sheet = wb['Sheet1']
 
+    sheet.column_dimensions['A'].width = 20
     sheet.column_dimensions['B'].width = 40
     sheet.column_dimensions['C'].width = 20
     sheet.column_dimensions['D'].width = 20
@@ -78,7 +72,8 @@ def create_userTestSheet():
 
 def add_userTestSheet(values):
 
-    wb = xl.load_workbook('user_test.xlsx')
+    path = os.path.abspath('user_test.xlsx')
+    wb = xl.load_workbook(path)
     sheet = wb['Sheet1']
 
     center_allignment = Alignment(horizontal='center', vertical='center')
@@ -114,12 +109,11 @@ def add_userTestSheet(values):
     else:
         validity_cell.fill = blue
 
-    status = check_status(values)
     status_cell = sheet.cell(sheet.max_row, 4)
-    status_cell.value = status
+    status_cell.value = values['status']
     status_cell.alignment = center_allignment
     status_cell.border = all_border
-    if status == "PASS":
+    if values['status'] == "pass":
         status_cell.fill = green
     else:
         status_cell.fill = red
@@ -131,7 +125,7 @@ def add_userTestSheet(values):
 
 """
 values = {
-    "id": 1,
+    "id": "1",
     "email": "apple@gmail.com",
     "psw": "12345678",
     "psw-repeat": "12345678",
@@ -142,7 +136,7 @@ values = {
     "url_change": 0
 }
 values2 = {
-    "id": 2,
+    "id": "2",
     "email": "ball@gmail.com",
     "psw": "12345678",
     "psw-repeat": "12345678",
@@ -153,7 +147,7 @@ values2 = {
     "url_change": 0
 }
 values3 = {
-    "id": 3,
+    "id": "3",
     "email": "cat@gmail.com",
     "psw": "12345678",
     "psw-repeat": "12345678",
@@ -164,7 +158,7 @@ values3 = {
     "url_change": 1
 }
 values4 = {
-    "id": 4,
+    "id": "4",
     "email": "dog@gmail.com",
     "psw": "12345678",
     "psw-repeat": "12345678",

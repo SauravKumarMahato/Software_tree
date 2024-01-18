@@ -1,6 +1,8 @@
 import os
 import json
 
+from testExcel import add_userTestSheet, create_userTestSheet
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
@@ -109,7 +111,7 @@ def fill_signup_form_with_data(input_data):
 
             # Check the current URL after form submission
             current_url = form.driver.current_url
-            expected_url = 'file:///C:/Users/sasa/Desktop/Software_tree/createUser.html'
+            expected_url = 'file:///C:/Users/ASUS/Desktop/Software_tree/createUser.html'
 
             # print(current_url + '\n' + expected_url)
 
@@ -128,4 +130,9 @@ def fill_signup_form_with_data(input_data):
 
 test_data_file_path = os.path.join(current_directory, 'testjson.json')
 output_list = fill_signup_form_with_data(load_test_data(test_data_file_path))
-print(output_list)
+
+
+create_userTestSheet()
+
+for dictionary in output_list:
+    add_userTestSheet(dictionary)
