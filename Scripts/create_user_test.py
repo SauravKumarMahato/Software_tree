@@ -134,7 +134,7 @@ def fill_signup_form_with_data(input_data):
 
 test_data_file_path = os.path.join(current_directory, 'createUser.json')
 output_list = fill_signup_form_with_data(load_test_data(test_data_file_path))
-print(output_list)
+#print(output_list)
 
 
 create_userTestSheet()

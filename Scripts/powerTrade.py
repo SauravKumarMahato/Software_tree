@@ -1,8 +1,7 @@
 import sys
 sys.path.append('..')  # Adjust the path if needed
 
-# from Table.document_user import add_userTestSheet, create_userTestSheet
-
+from Table.document_power import add_powerTestSheet, create_powerTestSheet
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -124,10 +123,10 @@ def fill_power_trader_form_with_data(input_data):
 # Assuming powerTrade_file_path is defined similarly to createUser_file_path
 test_data_power_trader_file_path = os.path.join(current_directory, 'powerTrader.json')
 output_list_power_trader = fill_power_trader_form_with_data(load_test_data(test_data_power_trader_file_path))
-print(output_list_power_trader)
+#print(output_list_power_trader)
 
 # Assuming you have defined add_powerTraderSheet and create_powerTraderSheet similarly to add_userTestSheet and create_userTestSheet
-# for dictionary in output_list_power_trader:
-#     add_powerTraderSheet(dictionary)
-# create_powerTraderSheet()
+create_powerTestSheet()
 
+for dictionary in output_list_power_trader:
+    add_powerTestSheet(dictionary)

@@ -132,51 +132,18 @@ def add_userTestSheet(values):
 values = {
     "id": "1",
     "email": "apple@gmail.com",
-    "psw": "12345678",
-    "psw-repeat": "12345678",
-    "loc": "Kathmandu",
+    "password": "12345678",
+    "repassword": "12345678",
+    "location": "Kathmandu",
     "gender": "male",
     "remember": 1, 
     "validity": 0, 
-    "url_change": 0
-}
-values2 = {
-    "id": "2",
-    "email": "ball@gmail.com",
-    "psw": "12345678",
-    "psw-repeat": "12345678",
-    "loc": "Pokhara",
-    "gender": "female",
-    "remember": 0, 
-    "validity": 1, 
-    "url_change": 0
-}
-values3 = {
-    "id": "3",
-    "email": "cat@gmail.com",
-    "psw": "12345678",
-    "psw-repeat": "12345678",
-    "loc": "Pokhara",
-    "gender": "male",
-    "remember": 0, 
-    "validity": 0, 
-    "url_change": 1
-}
-values4 = {
-    "id": "4",
-    "email": "dog@gmail.com",
-    "psw": "12345678",
-    "psw-repeat": "12345678",
-    "loc": "Chitwan",
-    "gender": "female",
-    "remember": 0, 
-    "validity": 1, 
-    "url_change": 1
+    "status": "fail"
 }
 """
 
 #create_userTestSheet()
 #add_userTestSheet(values)
-#add_userTestSheet(values2)
-#add_userTestSheet(values3)
-#add_userTestSheet(values4)
+#add_userTestSheet(values)
+#add_userTestSheet(values)
+#add_userTestSheet(values)
