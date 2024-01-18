@@ -19,7 +19,7 @@ from webdriver_manager.firefox import GeckoDriverManager
 # get the current working directory
 current_directory = os.getcwd()
 createUser_file_path = os.path.join(current_directory, 'createUser.html')
-powerTrade_file_path = os.path.join(current_directory, 'powerTrade_1.html')
+# powerTrade_file_path = os.path.join(current_directory, 'powerTrade_1.html')
 
 class BrowserCompatibilityChecker:
     def __init__(self, browser_name):
@@ -101,10 +101,31 @@ class SignUpPageTest:
     def tearDown(self):
         self.driver.quit()
 
+    def get_url(self):
+        #  current_url = self.driver.current_url
+        current_url = createUser_file_path
+
+        # Check the current URL after form submission
+        expected_url = self.driver.current_url
+
+        print(current_url + '\n' + expected_url)
+
+        if current_url == expected_url:
+            print("Test Failed!")
+            with open('text.txt', 'a') as file:
+                file.write('Failed')
+        else:
+            print("Test Passed!")
+            with open('text.txt', 'a') as file:
+                file.write('Pass')
+
+
+
 def test_compatibility():
     checker = BrowserCompatibilityChecker('edge')
     checker.check_compatibility()
 
+# setup browser for testing
 def setupbrowser(browser_name):
     if browser_name == "chrome":
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -124,13 +145,12 @@ def fill_signup_form():
     form.open_signup_modal()
     form.test_successful_sign_up()
     form.submit_form()
+    form.get_url()
     sleep(5)
     form.tearDown()
     # driver.quit()
 
-
 fill_signup_form()
-
 
 
 
