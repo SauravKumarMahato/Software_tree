@@ -1,4 +1,7 @@
 import os
+import unittest
+from time import sleep
+
 import json
 
 from testExcel import add_userTestSheet, create_userTestSheet
@@ -62,13 +65,13 @@ class SignUpPageTest:
 
     def tearDown(self):
         self.driver.quit()
+        
+def test_compatibility():
+    checker = BrowserCompatibilityChecker('edge')
+    checker.check_compatibility()
 
-def setupbrowser(browser_name, headless=True):
-    options = webdriver.ChromeOptions() if browser_name == "chrome" else webdriver.FirefoxOptions() if browser_name == "firefox" else webdriver.EdgeOptions()
-    if headless:
-        options.add_argument("--headless")
-        options.add_argument("--disable-dev-shm-usage")  # For improved headless mode performance
-
+# setup browser for testing
+def setupbrowser(browser_name):
     if browser_name == "chrome":
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     elif browser_name == "firefox":
@@ -130,8 +133,7 @@ def fill_signup_form_with_data(input_data):
 
 test_data_file_path = os.path.join(current_directory, 'testjson.json')
 output_list = fill_signup_form_with_data(load_test_data(test_data_file_path))
-
-
+print(output_list)
 create_userTestSheet()
 
 for dictionary in output_list:
