@@ -18,7 +18,7 @@ def make_data(values):
 
 def create_userTestSheet():
 
-    path = os.path.abspath('user_test.xlsx')
+    path = os.path.abspath('excel_user.xlsx')
     wb = xl.load_workbook(path)
 
     sheet_to_delete = 'Sheet1'
@@ -66,13 +66,13 @@ def create_userTestSheet():
     status_cell.border = all_border
     status_cell.fill = gray
 
-    wb.save('user_test.xlsx')
+    wb.save('excel_user.xlsx')
 
 
 
 def add_userTestSheet(values):
 
-    path = os.path.abspath('user_test.xlsx')
+    path = os.path.abspath('excel_user.xlsx')
     wb = xl.load_workbook(path)
     sheet = wb['Sheet1']
 
@@ -120,7 +120,7 @@ def add_userTestSheet(values):
 
     sheet.row_dimensions[sheet.max_row].height = 110
 
-    wb.save('user_test.xlsx') 
+    wb.save('excel_user.xlsx') 
 
 
 """

@@ -4,7 +4,7 @@ from time import sleep
 
 import json
 
-from testExcel import add_userTestSheet, create_userTestSheet
+from document_user import add_userTestSheet, create_userTestSheet
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -71,7 +71,20 @@ def test_compatibility():
     checker.check_compatibility()
 
 # setup browser for testing
-def setupbrowser(browser_name):
+def setupbrowser(browser_name, headless):
+    if browser_name == "chrome":
+        options = webdriver.ChromeOptions()
+    elif browser_name == "firefox":
+        options = webdriver.FirefoxOptions()
+    elif browser_name == "edge":
+        options = webdriver.EdgeOptions()
+    else:
+        print(f"Unsupported browser: {browser_name}")
+        return None
+
+    if headless:
+        options.add_argument("--headless")
+
     if browser_name == "chrome":
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
     elif browser_name == "firefox":
@@ -110,18 +123,24 @@ def fill_signup_form_with_data(input_data):
             elif data["gender"].lower() == "female":
                 form.driver.find_element(By.XPATH, "//input[@name='gender' and @value='female']").click()
 
+            expected_url = form.driver.current_url
+
             form.submit_form()
 
             # Check the current URL after form submission
             current_url = form.driver.current_url
-            expected_url = 'file:///C:/Users/ASUS/Desktop/Software_tree/createUser.html'
 
             # print(current_url + '\n' + expected_url)
-
-            if current_url == expected_url:
-                status = "fail"
+            if data["validity"] == 1:
+                if current_url == expected_url:
+                    status = "fail"
+                else:
+                    status = "pass"
             else:
-                status = "pass"
+                if current_url == expected_url:
+                    status = "pass"
+                else:
+                    status = "fail"
 
         finally:
             form.tearDown()
