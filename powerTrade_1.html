@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+background-color:lightblue;
+}
+#phead {
+font-size: 32px;
+font-weight: bold;
+}
+input[type=text] {
+  width: 100%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+select{
+  width: 50%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=date] {
+  width: 50%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 50%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 45%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=reset] {
+  width: 45%;
+  font-size: 15px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#gridView {
+background-color:lightgray;
+border-style: dotted;
+border-width: 3px;
+border-color: red;
+width:100%;
+text-align: center;
+}
+
+</style>
+
+<body>
+<form>
+<table name=formView>
+	<th><label id=phead>Power Trade</label></th>
+    <tr>
+    	<td>Company Name:</td>
+        <td><input type=text name=cName value="KBS Energy" disabled></td>
+    </tr>
+    <tr>
+    	<td>Address:</td>
+    	<td><input type=text name=addr value="" size=50 required></td>
+    </tr>
+    <tr>
+    	<td>Trader:</td>
+    	<td>
+        <select name="trader" name="trader" required>
+          <option value=""></option>
+          <option value="aenergy">A Energy</option>
+          <option value="benergy">B Energy</option>
+          <option value="cenergy">C Energy</option>
+          <option value="denergy">D Energy</option>
+		</select>
+        </td>
+    </tr>
+    <tr>
+    	<td>Trade Date:</td>
+    	<td><input type=date name=tDate value="" required></td>
+    </tr>
+    <tr>
+    	<td>UOM Conversion:</td>
+    	<td>Kw<input type=radio  name =uom value="Kw" required>&nbsp;
+        	Mw<input type=radio  name =uom value="Mw">
+        </td>
+    </tr>
+    <tr>
+    	<td>Delivery Date From:</td>
+    	<td><input type=date name=dfDate value="" required></td>
+    </tr>
+    <tr>
+    	<td>Delivery Date To:</td>
+    	<td><input type=date name=dtDate value="" required></td>
+    </tr>
+    <tr>
+    	<td>Volume:</td>
+    	<td><input type=number min=0 name=vol value="" required></td>
+    </tr>
+    <tr>
+    	<td>Frequency:</td>
+    	<td>
+        <select id="freq" name="freq" required>
+          <option value=""></option>
+          <option value="hourly">Hourly</option>
+          <option value="daily">Daily</option>
+		</select>
+        </td>
+    </tr>
+    
+    <tr>
+    	<td></td>
+        <td><input type=reset value=Reset>&nbsp;
+        <input type=submit value=Submit></td>
+    </tr>
+</table>
+</form>
+
+<table name=gridView id=gridView>
+<tr>
+	<th>Delivery Date From</th>
+    <th>Delivery Date To</th>
+    <th>Volume</th>
+    <th>Frequenncy</th>
+    <th>UOM</th>
+    <th>Total Volume</th>
+    <th>Converted Volume</th>
+    <th>Unit</th>   
+</tr>
+<tr>
+	<td>12/01/2023</td>
+    <td>12/31/2023</td>
+    <td>100</td>
+    <td>Daily</td>
+    <td>Mw</td>
+    <td>3100</td>
+    <td>3100</td>
+    <td>Mw</td>
+</tr>
+
+<tr>
+
+</tr>
+	
+</table>
+</body>
+
+</html>
+
+        
+
+
+
+
+
+
+
+
+
