@@ -1,0 +1,317 @@
+[
+    {
+      "email": "",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "1hello@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello.mellow@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "Hello@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "_hello@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello.@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello#mellow@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com ",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "johnwick@gmail.com",
+      "password": "12345678",
+      "repassword": "12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "",
+      "repassword": "",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd",
+      "repassword": "pwd",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "hello@gmail.com",
+      "repassword": "hello@gmail.com",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345678",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Select One",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Kathmandu",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Bhaktapur",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": ""
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Female"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Other"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male, Female, Other"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "checked"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "checked"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "checked"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "unchecked"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "unchecked"
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male",
+      "Remember Me": "unchecked"
+    },
+    {
+      "email": "",
+      "password": "",
+      "repassword": "",
+      "location": "",
+      "gender": ""
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "",
+      "repassword": "",
+      "location": "Lalitpur",
+      "gender": "Male"
+    },
+    {
+      "email": "",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male"    
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "pwd12345",
+      "repassword": "pwd12345",
+      "location": "Lalitpur",
+      "gender": "Male"
+    }
+  ]
+  
