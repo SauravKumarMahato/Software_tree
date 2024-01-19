@@ -99,306 +99,9 @@
       "Volume": "1",
       "Frequency": "Daily"
     },
-    {
-        
-      "id": "TC_Td_000",
-      "Company Name": "KBS Energy",
-      "Address": "",
-      "Trader": "A Energy",
-      "Trade Date": "mm/dd/yyyy",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/17/2024",
-      "Delivery Date To": "01/18/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {
-        "id": "TC_Td_001",
-      "Company Name": "KBS Energy",
-      "Address": "Pulchowk",
-      "Trader": "A Energy",
-      "Trade Date": "01/16/2024",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/17/2024",
-      "Delivery Date To": "01/18/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {
-        "id": "TC_Td_002",
-      "Company Name": "KBS Energy",
-      "Address": "Pulchowk",
-      "Trader": "A Energy",
-      "Trade Date": "01/18/2024",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/19/2024",
-      "Delivery Date To": "01/20/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {
-        "id": "TC_Td_003",
-      "Company Name": "KBS Energy",
-      "Address": "Pulchowk",
-      "Trader": "A Energy",
-      "Trade Date": "01/16/2024",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/15/2024",
-      "Delivery Date To": "01/17/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {
-        "id": "TC_Td_004",
-      "Company Name": "KBS Energy",
-      "Address": "Pulchowk",
-      "Trader": "A Energy",
-      "Trade Date": "01/16/2024",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/17/2024",
-      "Delivery Date To": "01/12/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {
-        "id": "TC_Td_005",
-      "Company Name": "KBS Energy",
-      "Address": "Pulchowk",
-      "Trader": "A Energy",
-      "Trade Date": "01/16/2024",
-      "UOM Conversion": "Kw",
-      "Delivery Date From": "01/14/2024",
-      "Delivery Date To": "01/15/2024",
-      "Volume": "1",
-      "Frequency": "Daily"
-    },
-    {   "id": "",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {   "id": "TC_Td_008",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Mw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {
-        "id": "TC_DDF_000",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/19/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {
-        "id": "TC_DDF_001",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/15/2024",
-        "Delivery Date To": "01/14/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {   "id": "TC_DDF_002",
-        "Company Name": "",
-        "Address": "",
-        "Trader": "",
-        "Trade Date": "",
-        "UOM Conversion": "",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "",
-        "Volume": "",
-        "Frequency": ""
-    },
-    {
-        "id": "TC_DDF_003",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "mm/dd/yyyy",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {"id": "TC_DDF_004",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {"id": "TC_DDF_005",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/18/2024",
-        "Delivery Date To": "01/17/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {
-        "id": "TC_DDF_006",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/14/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/11/2024",
-        "Delivery Date To": "01/12/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {
-        "id": "TC_DDF_007",
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/15/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    },
-    {
-        "Delivery Date To": "01/18/2024"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": null,
-        "Frequency": "Daily"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": -1,
-        "Frequency": "Daily"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1.23,
-        "Frequency": "Daily"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": "AB",
-        "Frequency": "Daily"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": "*%",
-        "Frequency": "Daily"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Mw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 999999999999,
-        "Frequency": "Daily"
-    },
-    {
-        "Delivery Date To": null
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": null
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Hourly"
-    },
-    {
-        "Company Name": "KBS Energy",
-        "Address": "Pulchowk",
-        "Trader": "A Energy",
-        "Trade Date": "01/16/2024",
-        "UOM Conversion": "Kw",
-        "Delivery Date From": "01/17/2024",
-        "Delivery Date To": "01/18/2024",
-        "Volume": 1,
-        "Frequency": "Daily"
-    }
-    
-  ]
-  
 
-  // JSON for test cases of volume and frequency
-  [
     {
+      "id": "TC_Vol_000",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -410,6 +113,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_001",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -421,6 +125,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_002",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -432,6 +137,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_003",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -443,6 +149,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_004",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -454,6 +161,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_005",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -465,6 +173,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Vol_006",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -476,6 +185,7 @@
       "Frequency": "Daily"
     },
     {
+      "id": "TC_Freq_000",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -487,6 +197,7 @@
       "Frequency": ""
     },
     {
+      "id": "TC_Freq_001",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -497,7 +208,7 @@
       "Volume": "1",
       "Frequency": "Hourly"
     },
-    {
+    {  "id": "TC_Freq_002",
       "Company Name": "KBS Energy",
       "Address": "Pulchowk",
       "Trader": "A Energy",
@@ -508,5 +219,6 @@
       "Volume": "1",
       "Frequency": "Daily"
     }
+    
   ]
   
