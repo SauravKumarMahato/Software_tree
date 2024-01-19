@@ -1,5 +1,5 @@
 import sys
-sys.path.append('..')  # Adjust the path if needed
+sys.path.append('..') 
 
 from Table.document_power import add_powerTestSheet, create_powerTestSheet
 

@@ -1,5 +1,5 @@
 import sys
-sys.path.append('..')  # Adjust the path if needed
+sys.path.append('..') 
 
 from Table.document_user import add_userTestSheet, create_userTestSheet
 
@@ -117,8 +117,6 @@ def fill_signup_form_with_data(input_data):
             # Check the current URL after form submission
             current_url = form.driver.current_url
 
-            # print(current_url + '\n' + expected_url)
-
             if current_url == expected_url:
                 status = "fail"
             else:
@@ -134,7 +132,6 @@ def fill_signup_form_with_data(input_data):
 
 test_data_file_path = os.path.join(current_directory, 'createUser.json')
 output_list = fill_signup_form_with_data(load_test_data(test_data_file_path))
-#print(output_list)
 
 
 create_userTestSheet()
