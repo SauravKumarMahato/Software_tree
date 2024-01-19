@@ -1,0 +1,20 @@
+[
+    {
+        "id": "TC_Email_000", 
+        "email": "",
+        "password": "12345678",
+        "repassword": "12345678",
+        "location": "Kathmandu",
+        "gender": "Male",
+        "validity": 0
+    },
+    {
+        "id": "TC_Email_001", 
+        "email": "hello@gmail.com",
+        "password": "12345678",
+        "repassword": "12345678",
+        "location": "Kathmandu",
+        "gender": "Male",
+        "validity": 1
+    }
+]

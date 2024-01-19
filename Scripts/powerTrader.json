@@ -1,0 +1,28 @@
+[
+    {
+      "id": "TC_Add_000",
+      "Company Name": "KBS Energy",
+      "Address": "",
+      "Trader": "A Energy",
+      "Trade Date": "01/16/2024",
+      "UOM Conversion": "Kw",
+      "Delivery Date From": "01/17/2024",
+      "Delivery Date To": "01/18/2024",
+      "Volume": "1",
+      "Frequency": "Daily",
+      "validity": 0
+    },
+    {
+      "id": "TC_Add_001",
+      "Company Name": "KBS Energy",
+      "Address": "kalimati-21",
+      "Trader": "A Energy",
+      "Trade Date": "01/16/2024",
+      "UOM Conversion": "Kw",
+      "Delivery Date From": "01/17/2024",
+      "Delivery Date To": "01/18/2024",
+      "Volume": "1",
+      "Frequency": "Daily",
+      "validity": 1
+    }
+]
