@@ -5,8 +5,12 @@
 <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white">
 </p>
 
-
 Automation testing was carried out using python with selenium. Data Driven Testing(DDT) was performed in order to test a large number of test scenarios and to avoid carrying out repeated tasks. Test scripts were written and tested with test data.
+
+## Final Report 
+
+[Software_Testing_Documentation.pdf](https://github.com/user-attachments/files/17428991/Software_Testing_Documentation_Hitachi_Energy.pdf)
+
 ## HTML pages that were tested.
 <img width="938" alt="Screenshot 2024-01-18 212326" src="https://github.com/SauravKumarMahato/Software_tree/assets/89672957/044fbfdd-d869-4ad3-8e46-73dc0ed31380">
 
